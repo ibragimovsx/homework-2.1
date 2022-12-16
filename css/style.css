@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.new-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1200px;
+  height: auto;
+  background-color: #272626;
+}
+.box {
+  padding: 20px;
+  min-height: 700px;
+  height: auto;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+  gap: 20px;
+  margin: 50px;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6173ba;
+  font-size: 30px;
+}
+
+.text-get {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -200px;
+  padding: 10px;
+}
+.yoga-girl {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.link-class-one {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding: 10px;
+}
+.text-dres {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -250px;
+  padding: 10px;
+}
+.dress {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.link-class-two {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding: 10px;
+}
+.mini-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-content: center;
+}
+.gaming {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+.max-min {
+  padding: 10px;
+}
+.headset {
+  max-width: 200px;
+  height: 120px;
+}
+.key {
+  max-width: 200px;
+  height: 120px;
+}
+.mice {
+  max-width: 200px;
+  height: 120px;
+}
+.chairs {
+  max-width: 200px;
+  height: 120px;
+}
+.link-class-three {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding: 10px;
+}
+.two-case {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-case {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-content: center;
+}
+.sign {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.btn {
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  border: solid 1px #ffa500;
+  border-radius: 5px;
+  background: #ffa500;
+  font-size: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #116ea7;
+}
+.btn:focus {
+  transition: 0.5s;
+}
+.amazonbox {
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+.health {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -100px;
+  padding: 10px;
+}
+.health-img {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.link-class-four {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding: 10px;
+}
+.text-easy {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -200px;
+  padding: 10px;
+}
+.img-scotch {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.link-class-five {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding: 10px;
+}
+.toys {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -200px;
+  padding: 10px;
+}
+.littlegirl {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.link-class-six {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding: 10px;
+}
+.shop-by {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -150px;
+  padding: 10px;
+}
+.min-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-content: center;
+}
+.last-child {
+  padding: 15px;
+}
+.computers {
+  max-width: 200px;
+  height: 130px;
+}
+.pls {
+  max-width: 200px;
+  height: 130px;
+}
+.babytoys {
+  max-width: 250px;
+  height: 130px;
+}
+.toyss {
+  max-width: 250px;
+  height: 130px;
+}
+.link-last {
+  text-decoration: none;
+  color: #043858;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: -250px;
+  padding-bottom: 10px;
+}
